@@ -1,0 +1,12 @@
+body {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 130%;
+}
+
+.box {
+    display: grid;
+    place-items: center;
+  }
+.wrapper{
+    margin: auto;
+}
