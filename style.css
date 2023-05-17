@@ -1,12 +1,46 @@
 body {
     font-family: 'DotGothic16', sans-serif;
     font-size: 130%;
-}
-
-.box {
     display: grid;
     place-items: center;
-  }
+    color: greenyellow;
+    background-color: black;
+}
+
+
 .wrapper{
     margin: auto;
+}
+label{
+    width: 500px;
+    float: left;
+    position: relative;
+   top: 5px;
+    font-size: xx-large;
+    letter-spacing: 2px;
+  
+
+}
+input{
+    width: 320px;
+    font-size: 25px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    padding: 5px 5px 12px 5px;
+    background-color: rgb(133, 255, 76);
+    color: black;
+    
+}
+.formelement{
+    margin-bottom: 30px;
+}
+#submitbutton{
+    font-size: xx-large;
+    padding: 2px 4px;
+    
+}
+#Result{
+    color: aqua;
+    font-size: xx-large;
+    
 }
