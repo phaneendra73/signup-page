@@ -8,10 +8,10 @@ var errormessage="";
     if(isEmail($("#Email").val())== false || $("#Email").val()=="" ){
         errormessage+="<p>❌ Email id is not valid</p>"
     }
-    if($.isNumeric($("#phoneno").val())== false || $("#Email").val()==""){
+    if(isNumeric($("#phoneno").val())== false || $("#phoneno").val()==""){
         errormessage+="<p>❌ Phone number is invalid</p>"
     }
-    if($("#password").val()==$("#confirm-password").val()){
+    if($("#password").val()!=$("#confirm-password").val()){
         errormessage+="<p>❌ Password doesn't match</p>"
     }
     if(errormessage==""){
