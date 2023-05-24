@@ -12,7 +12,7 @@ var errormessage="";
         errormessage+="<p>❌ Phone number is invalid</p>"
     }
     if($("#password").val()==$("#confirm-password").val()){
-        errormessage+="<p>❌ Password doesnt match</p>"
+        errormessage+="<p>❌ Password doesn't match</p>"
     }
     if(errormessage==""){
         $("#Result").html("✅ you have sucessfully registered");

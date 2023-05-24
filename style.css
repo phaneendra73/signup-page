@@ -21,7 +21,7 @@ label{
   
 
 }
-input{
+input, button{
     width: 320px;
     font-size: 25px;
     border: 1px solid greenyellow;
@@ -31,13 +31,18 @@ input{
     color: black;
     
 }
+button:hover{
+    cursor: pointer;
+    background-color: rgb(66, 144, 30);
+
+
+}
 .formelement{
     margin-bottom: 30px;
 }
 #submitbutton{
     font-size: xx-large;
     padding: 2px 4px;
-    
 }
 #Result{
     color: aqua;
